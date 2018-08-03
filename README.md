@@ -2,7 +2,6 @@
 
 An android app which take english speech as input and give Hindi Text as Output
 
-## 1.Signup & Login
 
 Welcome Message             |  Listening to English speech     |   Output
 :-------------------------:|:-------------------------:|:-------------------------:
