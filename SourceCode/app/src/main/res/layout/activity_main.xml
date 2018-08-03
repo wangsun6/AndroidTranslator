@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".Main"
+    android:background="#e3f2fd">
+
+    <LinearLayout
+        android:id="@+id/id_layout"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Speech to English-Text Conversion:"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:padding="5dp"
+            android:id="@+id/id_input"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:textSize="18sp"
+            android:hint="English:"
+            android:background="@drawable/border_blue"/>
+
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="English to Hindi Translation:"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:padding="5dp"
+            android:id="@+id/id_output"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:textSize="18sp"
+            android:hint="Hindi:"
+            android:background="@drawable/border_blue"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/id_greeting"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Welcome to the language translation app"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"/>
+
+
+
+    <ImageView
+        android:id="@+id/id_convert"
+        android:layout_width="60dp"
+        android:layout_height="80dp"
+        android:padding="15dp"
+        android:background="@android:drawable/presence_audio_busy"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"/>
+
+</RelativeLayout>
